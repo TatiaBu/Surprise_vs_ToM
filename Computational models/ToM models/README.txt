@@ -62,4 +62,3 @@ This variable (`simData`) contains precomputed data for different starting locat
 - **MATLAB environment**: This repository requires MATLAB to run the scripts.
 - **Data File**: 
   - `simulated_paths.mat`: This file contains the `simData` variable used by the main script.
-
