@@ -1,5 +1,5 @@
 
-# Surprise_vs_ToM: Tacit Communication Game Analysis
+# Surprise_vs_ToM: Tacit Communication Game Analysis update 2 April, 2025
 
 ## Overview
 This repository contains the results and code from a study designed to investigate the effectiveness of various cognitive strategies in non-verbal communication within the Tacit Communication Game (TCG). The study examines how different computational models (Surprise model, ToM-0, ToM-1, and ToM-2) simulate sender behavior, and how human receivers interpret these non-verbal messages to identify hidden goals.
