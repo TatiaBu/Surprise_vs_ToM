@@ -68,7 +68,7 @@ start = 6; % Starting location
 % The rows (6, 7, 10, 11) represent distinct starting locations on the grid. For each starting location, 
 % there are 210 goal configurations. Each cell in simData holds thousands of possible messages that the 
 % sender can choose from, with variations based on the sender's ToM level.
-load('C:\Users\user\Desktop\Surprise_vs_ToM\Computational models\ToM models\simulated_paths.mat'); % Load all paths and goal configurations
+load('\Surprise_vs_ToM\Computational models\ToM models\simulated_paths.mat'); % Load all paths and goal configurations
 
 %% ----------------------------------Step 3: Identify Target Goal Configuration-------------------------------------
 % Find the index for the specified start location in simData

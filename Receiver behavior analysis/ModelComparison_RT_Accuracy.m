@@ -24,7 +24,7 @@ clear all; close all; clc;
 % The data file contains results from 40 participants and 4 computational models.
 % For each participant and model, 30 trials are included with behavioral measures
 % such as reaction times (RT), accuracy, and message type information.
-load('/Users/tatia/Library/Mobile Documents/com~apple~CloudDocs/My files/PhD_files/TCG_main_data_code/Surprise_vs_ToM/Receiver behavior analysis/recevier_bevavioral_data.mat')
+load('/Surprise_vs_ToM/Receiver behavior analysis/recevier_bevavioral_data.mat')
 
 %% Initialize matrices for storing accuracy and reaction time data
 % Adata: Accuracy data (40 participants x 4 models)
@@ -48,7 +48,7 @@ T.subject = subjectIDs;
 T = movevars(T, 'subject', 'Before', 1);
 
 % Save as CSV
-writetable(T, '/Users/tatia/Library/Mobile Documents/com~apple~CloudDocs/My files/PhD_files/TCG_main_data_code/Surprise_vs_ToM/Receiver behavior analysis/receiver_accuracy_data.csv');
+writetable(T, '/Surprise_vs_ToM/Receiver behavior analysis/receiver_accuracy_data.csv');
 
 disp('✅ Accuracy data saved to CSV successfully!');
 

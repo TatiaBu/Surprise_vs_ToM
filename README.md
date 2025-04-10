@@ -29,6 +29,11 @@ This folder contains the data and scripts used to analyze the behavioral respons
   - It calculates the mean accuracy and RT for each model and participant, performs one-way ANOVA, and generates visualizations like scatter plots and boxplots.
   - It also includes analysis for different message types (Pass-By, Enter-Exit, Wiggling), assessing how these types influence receiver performance.
 
+- **`analyze_incorrect_choices.m`**: 
+  - This script analyzes the spatial error in receivers' incorrect choices across four computational sender models (Surprise, ToM-0,ToM-1, ToM-2) in the Tacit Communication Game (TCG).It calculates the Manhattan distance between the chosen locationand the correct goal on a 4x4 grid for all incorrect trials,and plots the mean error distance with error bars.
+
+- **`bayes_statistical_analysis.R`**: 
+  - This script performs Bayesian Analysis of Receiver Accuracy Data to provide against against similarity between Surprise model and ToM2 model
 ### 2. **Computational Models**
 This folder contains the scripts and data related to the computational models used to simulate sender behavior in the Tacit Communication Game.
 
